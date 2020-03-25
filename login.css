@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 500px;
+  height: 650px;
+  background-color: rgba(167, 188, 246, 0.671);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-back {
+  width: 320px;
+  height: 620px;
+  background-color: rgb(209, 190, 190);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 20px 30px 10px rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+.phone {
+  background-color: rgb(145, 178, 240);
+  height: 600px;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 30px;
+}
+.phone-top {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(209, 190, 190);
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  align-self: center;
+}
+.phone__title {
+  color: rgb(185, 123, 123);
+
+  font: bold 24px Gelasio;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 8px;
+}
+.phone__in > div {
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.76);
+  margin-bottom: 20px;
+  font: 18px Montserrat;
+  padding: 6px;
+  padding-left: 15px;
+  border-radius: 20px;
+  color: rgb(93, 93, 93);
+}
+.phone__forgot {
+  text-align: end;
+  color: rgb(1, 37, 85);
+  font: 14px Montserrat;
+}
+.input {
+  display: flex;
+  margin-bottom: 40px;
+}
+.phone__re {
+  color: rgb(93, 93, 93);
+  font: 14px Montserrat;
+}
+.phone__box3 {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(185, 123, 123);
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font: 20px Montserrat;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.phone__or {
+  font: bold 18px Montserrat black;
+  margin-bottom: 30px;
+}
+.other-sns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.face {
+  width: 40%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #475a95;
+  font: 15px Montserrat;
+  color: white;
+  padding: 5px;
+}
+.twit {
+  width: 40%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #5da1f2;
+  font: 15px Montserrat;
+  color: white;
+  padding: 5px;
+}
+.last__one,
+.last__two {
+  font: 14px Montserrat;
+  margin-bottom: 10px;
+}
+.question {
+  color: rgb(93, 93, 93);
+}
+.answer {
+  color: rgb(185, 123, 123);
+}
